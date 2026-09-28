@@ -1,10 +1,13 @@
 :root {
-  --primary: #2563eb;
-  --dark: #0f172a;
-  --text: #1e293b;
-  --muted: #64748b;
-  --bg-alt: #f8fafc;
-  --border: #e2e8f0;
+  --navy-darkest: #010736;
+  --navy-dark: #0d1c42;
+  --primary: #22396f;
+  --dark: #010736;
+  --text: #0d1c42;
+  --muted: #566284;
+  --bg-alt: #fcf1d0;
+  --border: #d9d0ae;
+  --beige: #fcf1d0;
 }
 
 * {
@@ -39,10 +42,10 @@ img {
 
 /* Header */
 .site-header {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--navy-dark);
   position: sticky;
   top: 0;
-  background: #fff;
+  background: var(--navy-darkest);
   z-index: 10;
 }
 
@@ -68,6 +71,7 @@ img {
   font-weight: 700;
   font-size: 1.1rem;
   white-space: nowrap;
+  color: #fff;
 }
 
 nav {
@@ -80,21 +84,22 @@ nav {
 }
 
 nav a {
-  color: var(--text);
+  color: var(--beige);
   text-decoration: none;
   font-size: 0.95rem;
   white-space: nowrap;
 }
 
 nav a:hover {
-  color: var(--primary);
+  color: #fff;
 }
 
 /* Hero */
 .hero {
   padding: 72px 0 56px;
   text-align: center;
-  background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+  background: linear-gradient(180deg, var(--navy-darkest) 0%, var(--navy-dark) 100%);
+  color: #fff;
 }
 
 .hero-photo {
@@ -116,7 +121,7 @@ nav a:hover {
 
 .tagline {
   font-size: clamp(1rem, 3vw, 1.25rem);
-  color: var(--primary);
+  color: var(--beige);
   font-weight: 600;
   margin-bottom: 16px;
   line-height: 1.4;
@@ -125,14 +130,14 @@ nav a:hover {
 .hero-desc {
   max-width: 600px;
   margin: 0 auto 32px;
-  color: var(--muted);
+  color: #c9d0e6;
   padding: 0 8px;
 }
 
 .btn {
   display: inline-block;
-  background: var(--primary);
-  color: #fff;
+  background: var(--beige);
+  color: var(--navy-darkest);
   text-decoration: none;
   padding: 12px 28px;
   border-radius: 6px;
@@ -141,7 +146,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: #1d4ed8;
+  background: #f5e4ae;
 }
 
 /* Sections */
@@ -157,6 +162,7 @@ nav a:hover {
 .section h2 {
   font-size: clamp(1.4rem, 4vw, 1.75rem);
   margin-bottom: 16px;
+  color: var(--navy-darkest);
 }
 
 .section-desc {
@@ -184,6 +190,7 @@ nav a:hover {
   font-weight: 500;
   text-align: center;
   word-wrap: break-word;
+  color: var(--navy-dark);
 }
 
 /* Samples / Funnel container */
@@ -202,7 +209,7 @@ nav a:hover {
 
 .sample-thumb {
   height: 160px;
-  background: #e2e8f0;
+  background: var(--beige);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -252,9 +259,9 @@ nav a:hover {
 .site-footer {
   padding: 24px 0;
   text-align: center;
-  color: var(--muted);
+  color: var(--beige);
   font-size: 0.85rem;
-  border-top: 1px solid var(--border);
+  background: var(--navy-darkest);
 }
 
 @media (max-width: 640px) {
