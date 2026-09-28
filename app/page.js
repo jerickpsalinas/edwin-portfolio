@@ -105,15 +105,20 @@ export default function Home() {
         <div className="container">
           <h2>Contact</h2>
           <p>Interested in working together? Reach out below.</p>
-          <p className="contact-info">
-            Email: <a href="mailto:placeholder@email.com">placeholder@email.com</a>
-          </p>
+          <div className="contact-list">
+            <p className="contact-info">
+              Email: <a href="mailto:whindaza@gmail.com">whindaza@gmail.com</a>
+            </p>
+            <p className="contact-info">
+              Mobile: <a href="tel:+639916049024">+63 991 604 9024</a>
+            </p>
+          </div>
         </div>
       </section>
 
       <footer className="site-footer">
         <div className="container">
-          <p>&copy; 2026 Edwin Caudilla Daza. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Edwin Caudilla Daza. All rights reserved.</p>
         </div>
       </footer>
     </>

@@ -46,6 +46,13 @@ img {
   z-index: 10;
 }
 
+#about,
+#skills,
+#samples,
+#contact {
+  scroll-margin-top: 76px;
+}
+
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -226,8 +233,14 @@ nav a:hover {
 }
 
 /* Contact */
+.contact-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .contact-info {
-  margin-top: 8px;
   word-break: break-word;
 }
 
@@ -288,5 +301,14 @@ nav a:hover {
 @media (max-width: 400px) {
   nav a {
     font-size: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .btn {
+    transition: none;
   }
 }
