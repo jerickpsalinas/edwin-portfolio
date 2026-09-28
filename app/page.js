@@ -15,6 +15,13 @@ export default function Home() {
 
       <section className="hero">
         <div className="container">
+          <img
+            className="hero-photo"
+            src="/images/edwin-photo.webp"
+            alt="Edwin Caudilla Daza"
+            width={160}
+            height={160}
+          />
           <h1>Edwin Caudilla Daza</h1>
           <p className="tagline">Funnel Builder — Funnelish &amp; Shopify Specialist</p>
           <p className="hero-desc">
