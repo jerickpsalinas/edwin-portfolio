@@ -16,7 +16,7 @@ export default function Home() {
       <section className="hero">
         <div className="container">
           <h1>Edwin Caudilla Daza</h1>
-          <p className="tagline">Funnel Builder &amp; Digital Marketing Specialist</p>
+          <p className="tagline">Funnel Builder — Funnelish &amp; Shopify Specialist</p>
           <p className="hero-desc">
             I design and build high-converting sales funnels that turn visitors into customers.
           </p>
@@ -28,10 +28,24 @@ export default function Home() {
         <div className="container">
           <h2>About Me</h2>
           <p>
-            I&apos;m a dedicated funnel builder with hands-on experience creating landing pages,
-            sales pages, and complete marketing funnels for businesses looking to grow their
-            online presence. I focus on clean design, clear messaging, and conversion-driven
-            layouts.
+            I&apos;m a Funnel Builder specializing in Funnelish and Shopify e-commerce. I can build
+            and customize sales funnels, advertorials, landing pages, product pages, checkout
+            pages, order bumps, upsells, downsells, and thank-you pages. I&apos;m also comfortable
+            adapting existing funnel templates, recreating competitor funnels, and making sure
+            pages are clean, responsive, and functional on both desktop and mobile.
+          </p>
+          <p>
+            I&apos;m detail-oriented and focused on creating a smooth customer journey from the
+            landing page through checkout. I can also assist with Shopify store setup, product
+            pages, apps and integrations, funnel testing, troubleshooting, and revisions based on
+            client requirements. I&apos;m comfortable following SOPs and learning new tools and
+            workflows to help e-commerce businesses launch and improve their funnels.
+          </p>
+          <p>
+            I&apos;m looking for opportunities to work with e-commerce brands, agencies, and
+            business owners who need a reliable Funnel Builder for ongoing funnel development and
+            Shopify-related tasks. My goal is to become a dependable part of the team and
+            consistently deliver clean, accurate, and conversion-focused work.
           </p>
         </div>
       </section>
@@ -40,12 +54,12 @@ export default function Home() {
         <div className="container">
           <h2>Skills</h2>
           <ul className="skills-grid">
-            <li>Sales Funnel Design</li>
-            <li>Landing Page Creation</li>
-            <li>ClickFunnels / GoHighLevel</li>
-            <li>Email Marketing Automation</li>
-            <li>Copywriting Support</li>
-            <li>Conversion Rate Optimization</li>
+            <li>Funnelish Funnel Building</li>
+            <li>Shopify Store Setup</li>
+            <li>Advertorials &amp; Landing Pages</li>
+            <li>Checkout, Order Bumps &amp; Upsells/Downsells</li>
+            <li>Competitor Funnel Recreation</li>
+            <li>Funnel Testing &amp; Troubleshooting</li>
           </ul>
         </div>
       </section>
